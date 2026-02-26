@@ -81,7 +81,7 @@ class OptimizerTab(ctk.CTkFrame):
         singles_mode = self.chk_singles.get()
         
         for root, dirs, files in os.walk(root_path):
-            audio_files = [f for f in files if f.lower().endswith(('.mp3', '.m4a', '.flac'))]
+            audio_files = [f for f in files if f.lower().endswith(('.mp3', '.m4a', '.flac')) and not f.startswith('._')]
             
             if not audio_files:
                 continue

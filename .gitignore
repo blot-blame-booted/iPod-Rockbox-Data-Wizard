@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.env
+.python-version
+*.json
+*.log
+
+# uv package manager
+.env*/
+*.toml
+**/uvicorn/
+*.veuv
+*.lock
