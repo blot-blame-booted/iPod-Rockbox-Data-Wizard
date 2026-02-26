@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.eggs/
+*.env
+
+# Packages
+*.egg
+*.whl
+*.tar.gz
+
+# uv package manager
+.env*/
+**/uvicorn/
